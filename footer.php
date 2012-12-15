@@ -12,12 +12,15 @@
 	</div><!-- #main .site-main -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
+		<!--
+<div class="site-info">
 			<?php do_action( 'cJack_credits' ); ?>
 			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'cJack' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'cJack' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'cJack' ), 'CrackerJack', '<a href="http://underscores.me/" rel="designer">Eric Appel and Brandon Bohling</a>' ); ?>
-		</div><!-- .site-info -->
+		</div>
+-->
+		<!-- .site-info -->
 	</footer><!-- #colophon .site-footer -->
 </div><!-- #page .hfeed .site -->
 

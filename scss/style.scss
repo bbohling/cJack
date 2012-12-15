@@ -8,7 +8,7 @@
 
 @include font-face("ColaborateThinRegular", font-files("Colaborate/ColabThi-webfont.ttf", "Colaborate/ColabThi-webfont.woff", "Colaborate/ColabLig-webfont.eot"));
 
-body { font-family: "ColaborateLightRegular"; font-size:14px; }
+body { font-family: "ColaborateLightRegular"; font-size:16px; }
 h1 { font-family: "ColaborateThinRegular"; font-size:3em; }
 h2.site-description { font-size:1.2em; }
 
@@ -20,13 +20,15 @@ a, a:hover, a:visited { text-decoration: none; }
 $lighter-grey: #fafafa;
 $light-grey: #ccc;
 $dark-grey: #333333;
-$blue: #001eff;
+$blue: #28549e;
 $light-blue: lighten($blue, 30%);
   
 // then set functional variables:
 $bg-color: $lighter-grey;
 $text-color: $dark-grey;
+$text-meta: $light-grey;
 $link-color: $light-blue;
+$link-color-visited: $light-blue;
 $border-color: $light-blue;
 
 @mixin light-grey-horizontal-gradient {
@@ -42,6 +44,20 @@ a, a:visited, a:hover { color:$dark-grey; }
 // === LAYOUT === 
 
 body { background-color: $bg-color; }
+h1.entry-title { margin-bottom: 0px; }
+article { margin: 105px 0; }
+a { 
+	color: $link-color; 
+	&:visited { color: $link-color-visited; }
+}
+
+form#searchform { margin-bottom: 50px; }
+
+.entry-meta, .entry-meta a, .entry-meta a:visited { color: $text-meta; }
+
+.wp-caption-text { text-size: 0.9em; color: $text-meta; font-style: italic; margin: 5px 0; }
+
+footer.entry-meta .sep, .tags-links { display: none; }
 
 #page { width: 800px; margin: 0 auto; }
 
