@@ -2,17 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "7978",
   "files" : {
-    "\/screenshot.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/screenshot.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/screenshot.png",
-      "initialSize" : 1406,
-      "fileType" : 8192
-    },
     "\/sidebar.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -22,366 +11,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/scss\/config.rb" : {
+    "\/inc\/custom-header.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code Merge Right.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code Merge Right.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code Merge Right.png",
-      "initialSize" : 4225,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/stylesheet.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/stylesheet.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/images\/17-bar-chart@2x.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/17-bar-chart@2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/17-bar-chart@2x.png",
-      "initialSize" : 1049,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/category_2.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/category_2.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/404.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/404.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Same.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Same.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Same.png",
-      "initialSize" : 3777,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Clippings - Refresh.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Clippings - Refresh.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Clippings - Refresh.png",
-      "initialSize" : 4176,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/LeftArrowNotSelectedMain.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/LeftArrowNotSelectedMain.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/LeftArrowNotSelectedMain.png",
-      "initialSize" : 3236,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/text editor integration.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/text editor integration.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Different.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Different.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Different.png",
-      "initialSize" : 3963,
-      "fileType" : 8192
-    },
-    "\/images\/06-magnify@2x.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/06-magnify@2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/06-magnify@2x.png",
-      "initialSize" : 1821,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/category_1.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/category_1.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/rtl.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/rtl.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Default.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Default.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Default.png",
-      "initialSize" : 4391,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Do Not.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Do Not.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Do Not.png",
-      "initialSize" : 4346,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Show All.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Show All.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Show All.png",
-      "initialSize" : 5193,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/changing filter selections (file comparison).html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/changing filter selections (file comparison).html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Double Blue.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Double Blue.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Double Blue.png",
-      "initialSize" : 3523,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Double Grey.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Double Grey.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Double Grey.png",
-      "initialSize" : 3496,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/category_0.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/category_0.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/inc\/extras.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/extras.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/excluding files from the comparison.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/excluding files from the comparison.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/content-image.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content-image.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/connecting to remote servers.Picture 1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/connecting to remote servers.Picture 1.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/connecting to remote servers.Picture 1.png",
-      "initialSize" : 53567,
-      "fileType" : 8192
-    },
-    "\/search.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/search.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/footer.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/footer.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code Next Diff.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code Next Diff.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code Next Diff.png",
-      "initialSize" : 4065,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/_page_index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/_page_index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/content-video.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content-video.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/comparing files.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/comparing files.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/archive.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/inc\/theme-options\/theme-options.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/theme-options\/theme-options.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/app_icon_16.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/app_icon_16.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/app_icon_16.png",
-      "initialSize" : 3550,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/webexportpostflightscript.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/webexportpostflightscript.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/searchform.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/searchform.php",
+      "inputAbbreviatedPath" : "\/inc\/custom-header.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -397,176 +32,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/inc\/template-tags.php" : {
+    "\/functions.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/template-tags.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Predicate.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Predicate.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Predicate.png",
-      "initialSize" : 4347,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code Merge Left.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code Merge Left.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code Merge Left.png",
-      "initialSize" : 4281,
-      "fileType" : 8192
-    },
-    "\/content.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/RightArrowNotSelectedMain.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/RightArrowNotSelectedMain.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/RightArrowNotSelectedMain.png",
-      "initialSize" : 3242,
-      "fileType" : 8192
-    },
-    "\/images\/14-tag@2x.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/14-tag@2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/14-tag@2x.png",
-      "initialSize" : 1311,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/excluding files from the comparison.Picture 5.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/excluding files from the comparison.Picture 5.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/excluding files from the comparison.Picture 5.png",
-      "initialSize" : 18106,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/using the session chooser.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/using the session chooser.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/layouts\/sidebar-sidebar-content.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/layouts\/sidebar-sidebar-content.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Refresh.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Refresh.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Refresh.png",
-      "initialSize" : 4137,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Dashed Right.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Dashed Right.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Dashed Right.png",
-      "initialSize" : 3100,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code Previous Diff.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code Previous Diff.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code Previous Diff.png",
-      "initialSize" : 4039,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code - Different.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code - Different.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Code - Different.png",
-      "initialSize" : 4028,
-      "fileType" : 8192
-    },
-    "\/js\/small-menu.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/small-menu.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/small-menu-ck.js",
-      "fileType" : 64
-    },
-    "\/content-page.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content-page.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/content-link.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content-link.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/comments.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/comments.php",
+      "inputAbbreviatedPath" : "\/functions.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -582,12 +53,115 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/content-single.php" : {
+    "\/js\/keyboard-image-navigation.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content-single.php",
+      "inputAbbreviatedPath" : "\/js\/keyboard-image-navigation.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/keyboard-image-navigation-ck.js",
+      "fileType" : 64
+    },
+    "\/fonts\/Colaborate\/stylesheet.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/stylesheet.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/layouts\/sidebar-sidebar-content.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/layouts\/sidebar-sidebar-content.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/inc\/theme-options\/theme-options.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/theme-options\/theme-options.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/content-image.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/content-image.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/layouts\/sidebar-content.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/layouts\/sidebar-content.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/no-results.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/no-results.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/scss\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
+    },
+    "\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/images\/12-eye@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/12-eye@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/12-eye@2x.png",
+      "initialSize" : 1652,
+      "fileType" : 8192
+    },
+    "\/rtl.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/rtl.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/404.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/404.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -600,54 +174,72 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/advanced features.html" : {
+    "\/inc\/template-tags.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/advanced features.html",
+      "inputAbbreviatedPath" : "\/inc\/template-tags.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Frameworks\/BGHUDAppKit.framework\/Resources" : {
+    "\/layouts\/content-sidebar-sidebar.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Frameworks\/BGHUDAppKit.framework\/Resources",
+      "inputAbbreviatedPath" : "\/layouts\/content-sidebar-sidebar.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/images\/06-magnify@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/06-magnify@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/06-magnify@2x.png",
+      "initialSize" : 1821,
+      "fileType" : 8192
+    },
+    "\/layouts\/sidebar-content-sidebar.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/layouts\/sidebar-content-sidebar.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/layouts\/content-sidebar.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/layouts\/content-sidebar.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/content-single.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/content-single.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/keyboard-image-navigation.js" : {
+    "\/js\/small-menu.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/keyboard-image-navigation.js",
+      "inputAbbreviatedPath" : "\/js\/small-menu.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/keyboard-image-navigation-ck.js",
+      "outputAbbreviatedPath" : "\/js\/small-menu-ck.js",
       "fileType" : 64
-    },
-    "\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/CrossHatch.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/CrossHatch.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/CrossHatch.png",
-      "initialSize" : 4095,
-      "fileType" : 8192
     },
     "\/header.php" : {
       "ignoreWasSetByUser" : 0,
@@ -658,63 +250,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/RightArrowSelectedMain.png" : {
+    "\/search.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/RightArrowSelectedMain.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/RightArrowSelectedMain.png",
-      "initialSize" : 3267,
-      "fileType" : 8192
-    },
-    "\/page.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page.php",
+      "inputAbbreviatedPath" : "\/search.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/changing filter selections (directory comparison).html" : {
+    "\/content.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/changing filter selections (directory comparison).html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Double Black.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Double Black.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Double Black.png",
-      "initialSize" : 3636,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Default Code.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Default Code.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Default Code.png",
-      "initialSize" : 3768,
-      "fileType" : 8192
-    },
-    "\/no-results.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/no-results.php",
+      "inputAbbreviatedPath" : "\/content.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -729,110 +279,30 @@
       "outputAbbreviatedPath" : "\/js\/html5-ck.js",
       "fileType" : 64
     },
-    "\/inc\/custom-header.php" : {
+    "\/inc\/extras.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/custom-header.php",
+      "inputAbbreviatedPath" : "\/inc\/extras.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/RightArrowNotMain.png" : {
+    "\/comments.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/RightArrowNotMain.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/RightArrowNotMain.png",
-      "initialSize" : 3182,
-      "fileType" : 8192
-    },
-    "\/layouts\/sidebar-content.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/layouts\/sidebar-content.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/LeftArrowNotMain.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/LeftArrowNotMain.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/LeftArrowNotMain.png",
-      "initialSize" : 3171,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/webexportpagetemplate.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/webexportpagetemplate.html",
+      "inputAbbreviatedPath" : "\/comments.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/category_5.html" : {
+    "\/archive.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/category_5.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Right.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Right.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Right.png",
-      "initialSize" : 3825,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/comparing directories.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/comparing directories.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Single.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Single.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Single.png",
-      "initialSize" : 4421,
-      "fileType" : 8192
-    },
-    "\/functions.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
+      "inputAbbreviatedPath" : "\/archive.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -845,116 +315,101 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/category_4.html" : {
+    "\/images\/14-tag@2x.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/category_4.html",
+      "inputAbbreviatedPath" : "\/images\/14-tag@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/14-tag@2x.png",
+      "initialSize" : 1311,
+      "fileType" : 8192
+    },
+    "\/searchform.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/searchform.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/layouts\/content-sidebar-sidebar.css" : {
+    "\/footer.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/layouts\/content-sidebar-sidebar.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/layouts\/content-sidebar.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/layouts\/content-sidebar.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Discontinuity.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Discontinuity.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/PlugIns\/TextDiffPlugin.chplugin\/Contents\/Resources\/Discontinuity.png",
-      "initialSize" : 112,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Left.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Left.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Left.png",
-      "initialSize" : 3747,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Dashed Left.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Dashed Left.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Dashed Left.png",
-      "initialSize" : 3085,
-      "fileType" : 8192
-    },
-    "\/layouts\/sidebar-content-sidebar.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/layouts\/sidebar-content-sidebar.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Commit.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Commit.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/Merge - Commit.png",
-      "initialSize" : 4047,
-      "fileType" : 8192
-    },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/category_3.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/English.lproj\/ChangesHelp\/category_3.html",
+      "inputAbbreviatedPath" : "\/footer.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/images\/12-eye@2x.png" : {
+    "\/content-page.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/12-eye@2x.png",
+      "inputAbbreviatedPath" : "\/content-page.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/17-bar-chart@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/17-bar-chart@2x.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/12-eye@2x.png",
-      "initialSize" : 1652,
+      "outputAbbreviatedPath" : "\/images\/17-bar-chart@2x.png",
+      "initialSize" : 1049,
       "fileType" : 8192
     },
-    "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/LeftArrowSelectedMain.png" : {
+    "\/content-link.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/LeftArrowSelectedMain.png",
+      "inputAbbreviatedPath" : "\/content-link.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/page.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/page.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/screenshot.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/screenshot.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/fonts\/Colaborate\/Changes.app\/Contents\/Resources\/LeftArrowSelectedMain.png",
-      "initialSize" : 3245,
+      "outputAbbreviatedPath" : "\/screenshot.png",
+      "initialSize" : 1406,
       "fileType" : 8192
+    },
+    "\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/content-video.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/content-video.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     }
   },
   "manualImportLinks" : [
