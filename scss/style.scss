@@ -1,0 +1,55 @@
+@import "normalize";
+@import "compass";
+@import "compass/css3";
+
+// === TYPOGRAPHY === 
+
+@include font-face("ColaborateLightRegular", font-files("Colaborate/ColabLig-webfont.ttf", "Colaborate/ColabLig-webfont.woff", "Colaborate/ColabLig-webfont.eot"));
+
+@include font-face("ColaborateThinRegular", font-files("Colaborate/ColabThi-webfont.ttf", "Colaborate/ColabThi-webfont.woff", "Colaborate/ColabLig-webfont.eot"));
+
+body { font-family: "ColaborateLightRegular"; font-size:14px; }
+h1 { font-family: "ColaborateThinRegular"; font-size:3em; }
+h2.site-description { font-size:1.2em; }
+
+a, a:hover, a:visited { text-decoration: none; }
+
+// === COLOR ===
+
+// first set descriptive variables:
+$lighter-grey: #fafafa;
+$light-grey: #ccc;
+$dark-grey: #333333;
+$blue: #001eff;
+$light-blue: lighten($blue, 30%);
+  
+// then set functional variables:
+$bg-color: $lighter-grey;
+$text-color: $dark-grey;
+$link-color: $light-blue;
+$border-color: $light-blue;
+
+@mixin light-grey-horizontal-gradient {
+	// needs latest Compass, add '@import "compass"' to your scss
+	background-color: rgb(216,216,216); // Old browsers
+	@include filter-gradient(#d8d8d8, #d8d8d8, horizontal); // IE6-9
+	@include background-image(linear-gradient(left,  rgba(216,216,216,1) 0%,rgba(239,239,239,1) 50%,rgba(216,216,216,1) 99%));
+}
+
+a, a:visited, a:hover { color:$dark-grey; }
+
+
+// === LAYOUT ===
+
+body { background-color: $bg-color; }
+
+#page { width: 700px; margin: 0 auto; }
+
+#sidebar { 
+	width:75px; height:100%; position: fixed; left:0; top:0; background-color:red;
+	@include light-grey-horizontal-gradient;
+	
+	#sidebar-icons { margin-top:250px; padding:0.5em; 
+		img { width:50px; }
+	}
+}
