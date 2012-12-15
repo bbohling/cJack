@@ -12,7 +12,7 @@
 		<h1 class="entry-title"><a href="<?php if (function_exists('mbj_link_blog_link_url_display')) { 
 mbj_link_blog_link_url_display(); 
 } 
-?>"><?php the_title(); ?></a></h1>
+?>"><?php the_title(); ?> &rarr;</a></h1>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
