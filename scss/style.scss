@@ -41,7 +41,7 @@ a, a:visited, a:hover { color:$dark-grey; }
 
 // === LAYOUT === 
 
-body { background-color: red; }
+body { background-color: $bg-color; }
 
 #page { width: 700px; margin: 0 auto; }
 
