@@ -7,9 +7,11 @@
 @include font-face("ColaborateLightRegular", font-files("Colaborate/ColabLig-webfont.ttf", "Colaborate/ColabLig-webfont.woff", "Colaborate/ColabLig-webfont.eot"));
 
 @include font-face("ColaborateThinRegular", font-files("Colaborate/ColabThi-webfont.ttf", "Colaborate/ColabThi-webfont.woff", "Colaborate/ColabLig-webfont.eot"));
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 
-body { font-family: "ColaborateLightRegular"; font-size:16px; }
-h1 { font-family: "ColaborateThinRegular"; font-size:3em; }
+body { font-family: "Open Sans"; font-size:16px; }
+h1 { font-family: "Open Sans Condensed"; font-size:3em; }
 h2.site-description { font-size:1.2em; }
 
 a, a:hover, a:visited { text-decoration: none; }
@@ -17,19 +19,39 @@ a, a:hover, a:visited { text-decoration: none; }
 // === COLOR ===
 
 // first set descriptive variables:
+$white: #fff;
+$red-crimson: #d33034;
 $lighter-grey: #fafafa;
 $light-grey: #ccc;
+$lightest-grey: #f6f7f8;
+$grey-accent: #e2e4e7;
 $dark-grey: #333333;
-$blue: #28549e;
-$light-blue: lighten($blue, 30%);
+$grey: #aaaaaa;
+$blue-purple: #039;
+$purple: #339;
+$light-purple: #669;
+$dark-blue: #aabcfe;
+$blue: #b9c9fe;
+$light-blue: #e8edff;
+$blue-accent: #d0dafd;
   
 // then set functional variables:
+$site-title: $red-crimson;
 $bg-color: $lighter-grey;
+$post-title-color: $grey;
 $text-color: $dark-grey;
 $text-meta: $light-grey;
-$link-color: $light-blue;
-$link-color-visited: $light-blue;
+$link-color: $red-crimson; //$blue;
+$link-color-visited: $red-crimson; //$blue;
 $border-color: $light-blue;
+$table-bg-th: $blue;
+$table-bg-th-accent: $dark-blue;
+$table-bg-td: $light-blue;
+$table-bg-td-hover: $blue-accent;
+$table-th-text: $blue-purple;
+$table-td-text: $light-purple;
+$table-td-text-hover: $purple;
+$table-row-bottom: $white;
 
 @mixin light-grey-horizontal-gradient {
 	// needs latest Compass, add '@import "compass"' to your scss
@@ -44,14 +66,44 @@ a, a:visited, a:hover { color:$dark-grey; }
 // === LAYOUT === 
 
 body { background-color: $bg-color; }
-h1.entry-title { margin-bottom: 0px; }
+h1.entry-title { margin-bottom: 0px; 
+		a { color: $post-title-color; }
+}
 article { margin: 105px 0; }
 a { 
 	color: $link-color; 
 	&:visited { color: $link-color-visited; }
 }
+pre {
+	height: 120px;
+	overflow: auto;
+	font-family: “Consolas”,monospace;
+	font-size: 0.8em;
+	text-align:left;
+	background-color: $lightest-grey;
+	border: solid 1px $grey-accent;
+	color: $dark-grey;
+	/* auto wrap css...
+	overflow-x: auto; // Use horizontal scroller if needed; for Firefox 2, not
+	white-space: pre-wrap; // css-3 
+	white-space: -moz-pre-wrap !important; // Mozilla, since 1999 
+	word-wrap: break-word; // Internet Explorer 5.5+ 
+	white-space : normal; // crucial for IE 6, maybe 7?
+	*/
+	margin: 0px 0px 0px 0px;
+	padding:15px 15px 15px 15px;
+}
+
 
 form#searchform { margin-bottom: 50px; }
+#masthead hgroup { text-align: center; 
+	hr {	border: 0; height: 1px;
+			background-image: -webkit-linear-gradient(left, rgba(211,48,52,0), rgba(211,48,52,0.75), rgba(211,48,52,0)); 
+		    background-image:    -moz-linear-gradient(left, rgba(211,48,52,0), rgba(211,48,52,0.75), rgba(211,48,52,0)); 
+		    background-image:     -ms-linear-gradient(left, rgba(211,48,52,0), rgba(211,48,52,0.75), rgba(211,48,52,0)); 
+		    background-image:      -o-linear-gradient(left, rgba(211,48,52,0), rgba(211,48,52,0.75), rgba(211,48,52,0)); }	
+}
+.site-title a { font-family: 'Open Sans'; font-weight: 100; color: $site-title; }
 
 .entry-meta, .entry-meta a, .entry-meta a:visited { color: $text-meta; }
 
@@ -62,15 +114,43 @@ form#searchform { margin-bottom: 50px; }
 	ul { list-style: disc; margin-left: 50px; }
 }
 
+.entry-content table
+{
+	font-size: 0.9em;
+	text-align: left;
+	border-collapse: collapse;
+	th {
+		font-weight: bold;
+		padding: 8px;
+		background: $table-bg-th;
+		border-top: 4px solid $table-bg-th-accent;
+		border-bottom: 1px solid $table-row-bottom;
+		color: $table-th-text;
+	}
+	td {
+		padding: 8px;
+		background: $table-bg-td; 
+		border-bottom: 1px solid $table-row-bottom;
+		color: $table-td-text;
+		border-top: 1px solid transparent;
+	}
+	tr:hover td {
+		background: $table-bg-td-hover;
+		color: $table-td-text-hover;
+	}
+}
+
+
+
 .footnotes {
 	margin: 30px 0; 
 	ol { list-style: decimal; margin-left: 15px; font-size: 0.85em; }
 	hr {  border: 0;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); }
+	    height: 1px;
+	    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); }
 }
 
 footer.entry-meta .sep, .tags-links { display: none; }
