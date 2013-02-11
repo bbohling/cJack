@@ -29,7 +29,6 @@
 		<hgroup>
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-			<hr>
 		</hgroup>
 
 <!--
@@ -41,7 +40,7 @@
 
 	</header><!-- #masthead .site-header -->
 
-	<div id="sidebar">
+	<!--<div id="sidebar">
 		<div id="sidebar-icons">
 			<ul>
 				<li><img src="<?php echo get_bloginfo('template_directory'); ?>/images/06-magnify@2x.png" /></li>
@@ -49,6 +48,6 @@
 			</ul>
 		</div>
 	
-	</div>
+	</div>-->
 
 	<div id="main" class="site-main">

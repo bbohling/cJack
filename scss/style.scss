@@ -10,8 +10,174 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 
-body { font-family: "Open Sans"; font-size:16px; }
-h1 { font-family: "Open Sans Condensed"; font-size:3em; }
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+
+// Media Queries in Sass 3.2
+//
+// These mixins make media queries a breeze with Sass.
+// The media queries from mobile up until desktop all 
+// trigger at different points along the way
+//
+// And important point to remember is that and width
+// over the portrait width is considered to be part of the
+// landscape width. This allows us to capture widths of devices
+// that might not fit the dimensions exactly. This means the break
+// points are seamless.
+ 
+$mq-mobile-portrait		: 320px !default;
+$mq-mobile-landscape	: 480px !default;
+$mq-tablet-portrait		: 768px !default;
+$mq-tablet-landscape	: 1024px !default;
+$mq-desktop				: 1382px !default;
+ 
+// Both portrait and landscape
+@mixin mobile-only {
+	@media (max-width : $mq-mobile-landscape) {
+		@content;
+	}
+}
+ 
+// Everything up to and including the portrait width of the phone
+// Since it's the smallest query it doesn't need a min
+@mixin mobile-portrait-only {
+	@media (max-width : $mq-mobile-portrait) {
+		@content;
+	}
+}
+ 
+// Everything up to and including the mobile portrait
+@mixin mobile-portrait-and-below {
+	@media (max-width : $mq-mobile-portrait) {
+		@content;
+	}
+}
+ 
+// Everything above and including the mobile portrait
+@mixin mobile-portrait-and-up {
+	@media (min-width : $mq-mobile-portrait) {
+		@content;
+	}
+}
+ 
+// Everthing larger than a portrait mobile up until mobile landscape
+@mixin mobile-landscape-only {
+	@media only screen and (min-width : $mq-mobile-portrait + 1) and (max-width : $mq-mobile-landscape) {
+		@content;
+	}
+}
+ 
+// Everything up to and including the mobile landscape width
+@mixin mobile-landscape-and-below {
+	@media only screen and (max-width : $mq-mobile-landscape) {
+		@content;
+	}
+}
+ 
+// Everything above and including the mobile landscape width
+@mixin mobile-landscape-and-up {
+	@media only screen and (min-width : $mq-mobile-portrait + 1) {
+		@content;
+	}
+}
+ 
+// Both the portrait and landscape width of the tablet
+// Larger than a landscape mobile but less than or equal to a landscape tablet
+@mixin tablet-only {
+	@media only screen and (min-width : $mq-mobile-landscape + 1) and (max-width : $mq-tablet-landscape) {
+		@content;
+	}
+}
+ 
+// Everything larger than mobile landscape up until the portrait width of the tablet
+@mixin tablet-portrait-only {
+	@media only screen and (min-width : $mq-mobile-landscape + 1) and (max-width : $mq-tablet-portrait) {
+		@content;
+	}
+}
+ 
+// Everything below and including the portrait width of the tablet
+@mixin tablet-portrait-and-below {
+	@media only screen and (max-width : $mq-tablet-portrait) {
+		@content;
+	}
+}
+ 
+// Everything above and including the portrait width of the tablet
+@mixin tablet-portrait-and-up {
+	@media only screen and (min-width : $mq-mobile-landscape + 1) {
+		@content;
+	}
+}
+ 
+// Larger than portrait but less than or equal to the landscape width
+@mixin tablet-landscape-only {
+	@media only screen and (min-width : $mq-tablet-portrait + 1) and (max-width : $mq-tablet-landscape) {
+		@content;
+	}
+}
+ 
+// Up to and including the tablet landscape
+@mixin tablet-landscape-and-below {
+	@media only screen and (max-width : $mq-tablet-landscape) {
+		@content;
+	}
+}
+ 
+// Everything larger than portrait tablet
+@mixin tablet-landscape-and-up {
+	@media only screen and (min-width : $mq-tablet-portrait + 1) {
+		@content;
+	}
+}
+ 
+// Everything larger than a landscape tablet
+@mixin desktop-and-up {
+	@media only screen and (min-width : $mq-tablet-landscape + 1) {
+		@content;
+	}
+}
+ 
+// Everything below and including the desktop 
+@mixin desktop-and-below {
+	@media only screen and (max-width : $mq-desktop) {
+		@content;
+	}
+}
+ 
+// Everything larger than a landscape tablet but less than or equal to the desktop
+@mixin desktop-only {
+	@media only screen and (min-width : $mq-tablet-landscape + 1) and (max-width : $mq-desktop) {
+		@content;
+	}
+}
+ 
+// Retina screens have a 1.5 pixel ratio, not 2
+@mixin retina {
+	@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+		@content;
+	}
+}
+
+/* END MEDIA QUERY SETUP */
+
+
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+body { font-family: "Open Sans"; font-size:1.4em; 
+	@include mobile-landscape-and-below { 
+      font-size: 1.2em;
+    }
+}
+h1 { font-family: "Open Sans Condensed"; font-size:2.4em; line-height: 1em;
+	@include mobile-landscape-and-below { 
+      font-size: 2.0em;
+    }
+}
+
 h2.site-description { font-size:1.2em; }
 
 a, a:hover, a:visited { text-decoration: none; }
@@ -67,36 +233,50 @@ a, a:visited, a:hover { color:$dark-grey; }
 
 body { background-color: $bg-color; }
 h1.entry-title { margin-bottom: 0px; 
-		a { color: $post-title-color; }
+		letter-spacing: -1px;
+		color: $post-title-color;
+		a { color: $post-title-color; 
+			&:hover { color: $red-crimson; }
+		}
 }
 article { margin: 105px 0; }
 a { 
 	color: $link-color; 
 	&:visited { color: $link-color-visited; }
 }
-pre {
-	height: 120px;
+pre code {
+	//height: 120px;
 	overflow: auto;
 	font-family: “Consolas”,monospace;
-	font-size: 0.8em;
+	font-size: 0.65em;
+	line-height: 1.7em;
 	text-align:left;
 	background-color: $lightest-grey;
 	border: solid 1px $grey-accent;
 	color: $dark-grey;
-	/* auto wrap css...
+	/* auto wrap css...*/
 	overflow-x: auto; // Use horizontal scroller if needed; for Firefox 2, not
 	white-space: pre-wrap; // css-3 
 	white-space: -moz-pre-wrap !important; // Mozilla, since 1999 
 	word-wrap: break-word; // Internet Explorer 5.5+ 
 	white-space : normal; // crucial for IE 6, maybe 7?
-	*/
+	//*/
 	margin: 0px 0px 0px 0px;
 	padding:15px 15px 15px 15px;
+	white-space: pre ; display: block; unicode-bidi: embed
 }
 
+code { 
+	font-family: “Consolas”,monospace;
+	font-size: 0.65em;
+	background-color: $lightest-grey;
+	border: solid 1px $grey-accent;
+	color: $dark-grey;
+	padding:2px 2px;
+}
 
-form#searchform { margin-bottom: 50px; }
-#masthead hgroup { text-align: center; 
+form#searchform { margin: 50px; }
+#masthead hgroup, #searchSection { text-align: center; 
 	hr {	border: 0; height: 1px;
 			background-image: -webkit-linear-gradient(left, rgba(211,48,52,0), rgba(211,48,52,0.75), rgba(211,48,52,0)); 
 		    background-image:    -moz-linear-gradient(left, rgba(211,48,52,0), rgba(211,48,52,0.75), rgba(211,48,52,0)); 
@@ -111,12 +291,22 @@ form#searchform { margin-bottom: 50px; }
 
 .entry-content {
 	p { line-height: 1.5em; }
-	ul { list-style: disc; margin-left: 50px; }
+	ul { list-style: disc; margin-left: 3em; font-size: 90%; }
+	ol { list-style: decimal-leading-zero; margin-left: 3em; font-size: 90%; }
+	blockquote {
+	  font-size: 90%;
+	  margin-top: 10px;
+	  margin-bottom: 10px;
+	  margin-left: 3em;
+	  padding-left: 15px;
+	  border-left: 3px solid #ccc;
+	  background-color: $lightest-grey;
+	}
 }
 
 .entry-content table
 {
-	font-size: 0.9em;
+	font-size: 0.7em;
 	text-align: left;
 	border-collapse: collapse;
 	th {
@@ -133,6 +323,7 @@ form#searchform { margin-bottom: 50px; }
 		border-bottom: 1px solid $table-row-bottom;
 		color: $table-td-text;
 		border-top: 1px solid transparent;
+		font-size: 0.8em;
 	}
 	tr:hover td {
 		background: $table-bg-td-hover;
@@ -140,7 +331,14 @@ form#searchform { margin-bottom: 50px; }
 	}
 }
 
-
+.archiveList {
+	span.entry-meta time {
+		font-size: 65%;
+		color: $grey;
+	}
+	a { color: black; }
+	li { margin: 2em; }
+}
 
 .footnotes {
 	margin: 30px 0; 
@@ -155,7 +353,7 @@ form#searchform { margin-bottom: 50px; }
 
 footer.entry-meta .sep, .tags-links { display: none; }
 
-#page { width: 640px; margin: 0 auto; }
+#page { max-width: 660px; padding: 0 10px; margin: 0 auto; }
 
 #sidebar { 
 	width:75px; height:100%; position: fixed; left:0; top:0; background-color:red;
@@ -164,6 +362,8 @@ footer.entry-meta .sep, .tags-links { display: none; }
 	#sidebar-icons { margin-top:250px; padding:0.5em; 
 		img { width:50px; }
 	}
+	
+	display: none;
 }
 
 /* copied CSS from default theme */
@@ -173,6 +373,7 @@ footer.entry-meta .sep, .tags-links { display: none; }
 .comment-content img,
 .widget img {
 	max-width: 100%; /* Fluid images for posts, comments, and widgets */
+	height: auto; 
 }
 .entry-content div[id*="attachment_"] { max-width: 100%; }
 img[class*="align"],
@@ -197,3 +398,5 @@ video {
 }
 
 /* end copy */
+.center { text-align: center; }
+.box { border: 1px black solid; }
